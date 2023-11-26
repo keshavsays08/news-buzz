@@ -1,0 +1,83 @@
+885848d8bdce410b848dad31e437699a
+
+
+
+            <div className='py-2'>
+                   {/* card  */}
+            <div className=" max-w-sm p-2 bg-gray-100 bg-opacity-50 rounded-xl transform transition-all hover:translate-y-1 duration-300 shadow-lg hover:shadow-2xl overflow-hidden ">
+              {/* image  */}
+              <img className="h-40 object-cover rounded-xl" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+              <div className='p-2'>
+                {/* heading  */}
+                <h5 className='font-bold text-lg'>heading</h5>
+                {/* description  */}
+                <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nemo et voluptatibus veritatis eveniet doloremque eum consectetur libero nulla enim. Nisi aliquid quo doloremque culpa ducimus quia quos voluptatem numquam.</p>
+              </div>
+              {/* cta  */}
+              <div className='m-2'>
+              <a role='button' href="/" className='text-center bg-orange-500 hover:bg-orange-700 py-2 px-1 rounded-lg font-semibold  ocus:scale-95 transition-all duration-200 ease-out text-md text-gray-900 hover:text-gray-100 drop-shadow-lg'>Read More</a>
+              </div>
+            </div>
+            {/* card ends  */}
+            </div>
+         
+
+            <div className='py-2'>
+                 {/* card  */}
+            <div className=" max-w-sm p-2 bg-gray-100 bg-opacity-50 rounded-xl transform transition-all hover:translate-y-1 duration-300 shadow-lg hover:shadow-2xl overflow-hidden ">
+              {/* image  */}
+              <img className="h-40 object-cover rounded-xl" src="https://images.pexels.com/photos/15501640/pexels-photo-15501640/free-photo-of-black-and-white-pagoda-style-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+              <div className='p-2'>
+                {/* heading  */}
+                <h5 className='font-bold text-lg'>heading</h5>
+                {/* description  */}
+                <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nemo et voluptatibus veritatis eveniet doloremque eum consectetur libero nulla enim. Nisi aliquid quo doloremque culpa ducimus quia quos voluptatem numquam.</p>
+              </div>
+              {/* cta  */}
+              <div className='m-2'>
+              <a role='button' href="/" className='text-center bg-orange-500 hover:bg-orange-700 py-2 px-1 rounded-lg font-semibold  ocus:scale-95 transition-all duration-200 ease-out text-md text-gray-900 hover:text-gray-100 drop-shadow-lg'>Read More</a>
+              </div>
+            </div>
+            {/* card ends  */}
+            </div>
+           
+
+            <div className='py-2'>
+                  {/* card  */}
+            <div className="max-w-sm p-2 bg-gray-100 bg-opacity-50 rounded-xl transform transition-all hover:translate-y-1 duration-300 shadow-lg hover:shadow-2xl overflow-hidden">
+              {/* image  */}
+              <img className="h-40 object-cover rounded-xl" src="https://images.pexels.com/photos/1484776/pexels-photo-1484776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+              <div className='p-2'>
+                {/* heading  */}
+                <h5 className='font-bold text-lg'>heading</h5>
+                {/* description  */}
+                <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nemo et voluptatibus veritatis eveniet doloremque eum consectetur libero nulla enim. Nisi aliquid quo doloremque culpa ducimus quia quos voluptatem numquam.</p>
+              </div>
+              {/* cta  */}
+              <div className='m-2'>
+              <a role='button' href="/" className='text-center bg-orange-500 hover:bg-orange-700 py-2 px-1 rounded-lg font-semibold  ocus:scale-95 transition-all duration-200 ease-out text-md text-gray-900 hover:text-gray-100 drop-shadow-lg'>Read More</a>
+              </div>
+            </div>
+            {/* card ends  */}
+            </div>
+          
+
+            <div className='py-2'>
+                   {/* card  */}
+            <div className="max-w-sm p-2 bg-gray-100 bg-opacity-50 rounded-xl transform transition-all hover:translate-y-1 duration-300 shadow-lg hover:shadow-2xl overflow-hidden">
+              {/* image  */}
+              <img className="h-40 object-cover rounded-xl" src="https://images.pexels.com/photos/1996163/pexels-photo-1996163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+              <div className='p-2'>
+                {/* heading  */}
+                <h5 className='font-bold text-lg'>heading</h5>
+                {/* description  */}
+                <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nemo et voluptatibus veritatis eveniet doloremque eum consectetur libero nulla enim. Nisi aliquid quo doloremque culpa ducimus quia quos voluptatem numquam.</p>
+              </div>
+              {/* cta  */}
+              <div className='m-2'>
+              <a role='button' href="/" className='text-center bg-orange-500 hover:bg-orange-700 py-2 px-1 rounded-lg font-semibold  ocus:scale-95 transition-all duration-200 ease-out text-md text-gray-900 hover:text-gray-100 drop-shadow-lg'>Read More</a>
+              </div>
+            </div>
+            {/* card ends  */}
+            </div>
+         
