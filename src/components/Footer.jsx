@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function Footer() {
+function Footer(){
+
   return (
     //main footer
     <div className='w-full pt-5 bg-gray-100 text-gray-900'>

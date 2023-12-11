@@ -1,6 +1,7 @@
 // import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React, { Component} from 'react'
 import { Link } from 'react-router-dom';
+
 
 export class Navbar extends Component {
   //   static propTypes = {}
@@ -10,7 +11,7 @@ export class Navbar extends Component {
       mobileMenuVisible: false,
     };
   }
-
+   
   toggleMobileMenu = () => {
     this.setState(prevState => ({
       mobileMenuVisible: !prevState.mobileMenuVisible,

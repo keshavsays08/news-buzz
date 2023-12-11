@@ -13,6 +13,7 @@ import NewsContainer from './components/NewsContainer';
 import LoadingBar from 'react-top-loading-bar';
 
 export default class App extends Component {
+  
   // apiKey = process.env.REACT_APP_NEWS_API;
   apiKey = "885848d8bdce410b848dad31e437699a"
   pageSize = 16;
@@ -26,6 +27,10 @@ export default class App extends Component {
     }, 1000);
   }
   render() {
+
+
+ 
+
     return (
       <>
         <Router>
@@ -43,7 +48,7 @@ export default class App extends Component {
               }}
             />
           </div>
-          <Navbar />
+          <Navbar onSubscribeClick={this.scrollToFooter}  />
 
           <Routes>
 
