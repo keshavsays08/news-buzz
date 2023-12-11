@@ -1,25 +1,30 @@
 // import PropTypes from 'prop-types'
-import React, { Component} from 'react'
+import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
 
 
-export class Navbar extends Component {
+const  Navbar = (props) => {
   //   static propTypes = {}
-  constructor(props) {
-    super(props);
-    this.state = {
-      mobileMenuVisible: false,
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     mobileMenuVisible: false,
+  //   };
+  // }
    
-  toggleMobileMenu = () => {
-    this.setState(prevState => ({
-      mobileMenuVisible: !prevState.mobileMenuVisible,
-    }));
-  };
+  // const toggleMobileMenu = () => {
+  //   this.setState(prevState => ({
+  //     mobileMenuVisible: !prevState.mobileMenuVisible,
+  //   }));
+  // };
 
-  render() {
-    const { mobileMenuVisible } = this.state;
+
+  //   const { mobileMenuVisible } = this.state;
+  const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuVisible(!mobileMenuVisible);
+  };
     return (
       <>
         <nav className='bg-gray-100 bg-opacity-50'>
@@ -59,7 +64,7 @@ export class Navbar extends Component {
               {/* mobile menu  */}
               {/* mobile button goes here */}
               <div className='md:hidden flex items-center'>
-                <button onClick={this.toggleMobileMenu}className='mobile-menu-button'>
+                <button onClick={toggleMobileMenu}className='mobile-menu-button'>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 hover:text-orange-700">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                   </svg>
@@ -80,7 +85,7 @@ export class Navbar extends Component {
         {/* content goes here  */}
       </>
     )
-  }
+
 }
 
 export default Navbar
