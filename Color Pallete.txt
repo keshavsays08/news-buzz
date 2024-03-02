@@ -1,0 +1,4 @@
+Color Palette
+newsbuzz - #FB7318
+container - #F2F2F2
+
